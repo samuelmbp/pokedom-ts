@@ -4,10 +4,10 @@ import { Pokemon } from "./data/types";
 
 const cardContainer = document.querySelector<HTMLElement>(".card-container");
 const searchPokemonInputName = document.querySelector<HTMLInputElement>(
-    ".search-pokemon-by-name"
+    ".input-container__input--name"
 );
 const searchPokemonInputType = document.querySelector<HTMLInputElement>(
-    ".search-pokemon-by-type"
+    ".input-container__input--type"
 );
 
 if (!cardContainer || !searchPokemonInputName || !searchPokemonInputType)
